@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
+  background-color: darkgray;
+  background-image: url(.pictures/space.png);
 }
 
 #photoBox {
   margin: 1em auto;
+}
+
+img {
+  width: 80%;
 }
