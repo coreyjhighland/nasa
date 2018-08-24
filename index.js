@@ -25,7 +25,7 @@ function displayPhoto(data) {
   console.log(data);
   $('#photoBox').append(
     `<img src="${data.hdurl}" alt="${data.title}">
-    <p>${data.explanation}</p>`
+    <p id="description">${data.explanation}</p>`
   );
 }
 

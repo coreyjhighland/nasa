@@ -4,10 +4,16 @@
   background-image: url(.pictures/space.png);
 }
 
-#photoBox {
-  margin: 1em auto;
+main {
+  display: block;
+  text-align: center;
 }
 
 img {
   width: 80%;
+}
+
+#description {
+  border: solid 1px #000000;
+  padding: 0.5em;
 }
